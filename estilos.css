@@ -1,0 +1,60 @@
+.slider{
+    background: url(https://wallpaperaccess.com/full/854164.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.texto-nav{
+    font-size: 30px;
+}
+.margen{
+    margin-right: 10px;
+}
+
+.color{
+    background-color: #d1caca9c;
+}
+
+.boton{
+    width: 130px;
+    
+}
+
+.titulo{
+    font-size: 160px;
+    margin-top: 300px;
+}
+
+.margin{
+    width: auto;
+    
+}
+
+@media screen and (max-width: 900px){
+    .afectados{
+        width: 80px;
+        font-size: 13px;
+    }
+
+    .text{
+        font-size: 25px;
+    }
+
+    .respon{
+        font-size: 80px;
+    }
+    .slider{
+
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+
+    .respon{
+        font-size: 50px;
+    }
+}
