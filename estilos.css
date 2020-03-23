@@ -1,3 +1,5 @@
+
+
 .slider{
     background: url(https://wallpaperaccess.com/full/854164.jpg);
     height: 80vh;
@@ -6,9 +8,23 @@
     
 }
 
+
 .texto-nav{
     font-size: 30px;
 }
+
+.sombra{
+    
+    
+    box-shadow: 3px 5px 9px 0px rgba(107,102,107,1);
+}
+.sombraf{
+    
+    
+    box-shadow: 3px 5px 5px 7px rgba(107,102,107,1);
+}
+
+
 .margen{
     margin-right: 10px;
 }
@@ -32,6 +48,18 @@
     
 }
 
+
+.footer{
+    background-color: #343a40;
+    margin-bottom: 0px;
+    height: 40px;
+
+}
+
+.footer p{
+    font-size: 15px;
+}
+
 @media screen and (max-width: 900px){
     .afectados{
         width: 80px;
@@ -49,6 +77,10 @@
 
         height:  55vh;
     }
+
+    .titulo-inicio{
+        font-size: 70px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -57,11 +89,22 @@
     .respon{
         font-size: 50px;
     }
+
+    .titulo-inicio{
+        font-size: 50px;
+    }
 }
-@media screen and (max-width: 370px){
+
+@media screen and (max-width: 372px){
     
 
     .respon{
-        font-size: 40px;
-    } 
+        font-size: 45px;
+        
+    }
+    
+    .slider{
+
+        height:  30vh;
+    }
 }
