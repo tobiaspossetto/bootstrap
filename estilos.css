@@ -53,12 +53,16 @@
     background-color: #343a40;
     margin-bottom: 0px;
     height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 .footer p{
     font-size: 15px;
 }
+
 
 @media screen and (max-width: 900px){
     .afectados{
@@ -107,4 +111,45 @@
 
         height:  30vh;
     }
+
+    .titulo-inicio{
+        font-size: 35px;
+    }
+
+    
+}
+
+@media screen and (max-width: 340px){
+    
+
+    .respon{
+        font-size: 30px;
+        
+    }
+
+    .titulo-inicio{
+        font-size: 30px;
+    }
+    .p-inicio{
+        font-size: 15px;
+    }
+
+    
+    .visitar{
+        font-size: 15px;
+        
+    }
+    .footer{
+        
+        height: 80px;
+        display: block;
+        text-align: center;
+        padding-top: 15px;
+
+    }
+
+    .fot{
+       padding-top: 5px;
+    }
+   
 }
